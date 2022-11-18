@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RusticBurguers</title>
+</head>
+<body>
+    <header>
+        <h1>Rusticurguers, desde 2022</h1>
+    </header>
+    <img src="./Rusticurgers_logo.png" alt="el logo de rusticurguers">
+
+    <h2>Menú</h2>
+    <h3>Hamburguesas</h3>
+    <p>Todas las Burguers vienen con Papas si quieres agregar carne se suma $1 por Medallon</p>
+    <dl>
+        <dt>Chesse Rustic ................................. $12</dt>
+        <dd>Queso Cheddar doble, con salsa especial de la casa</dd>
+        <dt>American Rustic ............................... $12</dt>
+        <dd>Queso Cheddar triple, con salsa especial de la casa, cebolla frita y bacon</dd>
+        <dt>Special Rustic ............................... $12</dt>
+        <dd>Lechuga, Tomate seleccionado con salsa especial de la casa</dd>
+    </dl>
+
+    <h3>Cervezas</h3>
+    <p>Todas las Birras son artesanales</p>
+    <ul>
+        <li>Ipa Rustica .................................... $5</li>
+        <li>Apa Rustica .................................... $5</li>
+        <li>Honey Rustica ................................... $5</li>
+    </ul>
+    <hr>
+
+    <h2>Ubicación</h2>
+    <h3>Sucursales</h3>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Ubicación</th>
+            <th>Horarios</th>
+        </tr>
+        <tr>
+            <td>Sur</td>
+            <td><a href="https://goo.gl/maps/8WWqcqeQWruD46Jo8" target="_blank">Villa de Mayo, Eva Peron 4800</a></td>
+            <td>L - D 24hs</td>
+        </tr>
+        <tr>
+            <td>Centro</td>
+            <td><a href="https://goo.gl/maps/Hj13KaqcQpc6MSXj6" target="_blank">Villa de Mayo, Congresales 4599</a></td>
+            <td>L - D 5pm - 3am</td>
+        </tr><tr>
+            <td>Norte</td>
+            <td><a href="https://goo.gl/maps/gB77LM9v5qkcDpDU6" target="_blank">Villa de Mayo Carlos Pellegrini 4580</a></td>
+            <td>L - D 7pm - 4am</td>
+        </tr>
+    </table>
+
+    <h2>Pedidos</h2>
+    <h3>Haz tu pedido aquí</h3>
+    <form>
+    <p>¿De qué Hamburgueseria quieres?</p>
+    <select>
+        <option value="Sur">Sur</option>
+        <option value="Centro">Centro</option>
+        <option value="Norte">Norte</option>
+
+    </select>
+    <p>¿Que Hamburguesa quieres?</p>
+    <input type="checkbox" id="Chesse_Rustic" name="Chesse_Rustic" value="Chesse_Rustic">
+    <label for="Chesse_Rustic">Chesse Rustic</label>
+    <input type="number" id="Chesse_Rustic" name="Chesse_Rustic" placeholder="¿Cuantos Quieres?">
+    <br>
+    <input type="checkbox" id="American_Rustic" name="American_Rustic" value="American_Rustic">
+    <label for="American_Rustic">American Rustic</label>
+    <input type="number" id="American_Rustic" name="American_Rustic" placeholder="¿Cuantos Quieres?">
+    <br>
+    <input type="checkbox" id="Special_Rustic" name="Special_Rustic" value="Cuantos Quieres">
+    <label for="Special_Rustic">Special Rustic</label>
+    <input type="number" id="Special_Rustic" name="Special_Rustic" placeholder="¿Cuantos Quieres?">
+    
+    <br><br>
+    
+    <Label for="Nombre">Nombre:</Label><br>
+    <input type="text" id="Nombre" name="Nombre" placeholder="¿Como te llamas?">
+    <br><br>
+    <Label for="Nombre">Telefono:</Label><br>
+    <input type="number" id="Telefono" name="Telefono" placeholder="Numero de Telefono">
+    <br><br>
+    <Label for="Direccion">Direccion:</Label><br>
+    <input type="text" id="Direccion" name="Direccion" placeholder="¿Direccion?">
+    <br><br>
+    <button type="submit">Enviar Pedido</button>
+    <br><br>
+
+    </form>
+</body>
+</html>
